@@ -1,0 +1,47 @@
+.product-list {
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.product-list article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product-list article p {
+  font-size: 16px;
+  color: #999;
+  margin-top: 5px;
+  line-height: 24px;
+}
+form#new-post {
+  display: flex;
+  flex-direction: row;
+}
+
+form#new-post input {
+  margin-bottom: 10px;
+}
+
+form#new-post input[type="text"] {
+  height: 38px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+form#new-post button {
+  padding: 0px 0px;
+  border-radius: 4px;
+  border: 0;
+  background: #7159c1;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
