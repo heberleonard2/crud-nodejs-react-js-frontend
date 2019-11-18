@@ -56,7 +56,7 @@ export default class Main extends Component {
           <input
             type="text"
             name="description"
-            placeholder="Descrição do post"
+            placeholder="Titulo do post"
             //pegar o evento, dar um setState preenchendo uma variavel
             //chamada new Product, com o e.target.value que é o conteudo
             //dessa textarea
@@ -73,11 +73,11 @@ export default class Main extends Component {
           <input
             type="text"
             name="description"
-            placeholder="Descrição do post"
+            placeholder="Url do post"
             onChange={e => this.setState({ newUrl: e.target.value })}
             value={this.state.newUrl}
           />
-          <button type="submit">Criar produto</button>
+          <button type="submit">Criar Post</button>
         </form>
 
         <ul>
